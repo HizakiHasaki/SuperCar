@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+
+.footer {
+  background-color: var(--primary-text-color);
+  padding: 48px 85px;
+  margin-top: 48px;
+
+  .footer-header {
+    border-bottom: 1px solid var(--secondary-text-color);
+    padding-bottom: 24px;
+
+    .footer-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--secondary-text-color);
+      margin-bottom: 16px;
+    }
+
+    .footer-list {
+      padding: 0;
+      margin: 0;
+
+      .footer-item {
+        font-size: 1.4rem;
+        color: var(--white);
+        margin-bottom: 12px;
+      }
+    }
+  }
+
+  .footer-footer {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-content {
+      font-size: 1.6rem;
+      color: var(--white);
+    }
+  }
+}

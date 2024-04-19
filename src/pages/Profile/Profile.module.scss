@@ -1,0 +1,56 @@
+@import "~bootstrap/scss/bootstrap";
+
+.profile {
+  margin-top: 44px;
+  padding: 0 85px;
+  .title {
+    font-size: 3.2rem;
+    color: var(--primary-text-color);
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 28px;
+  }
+
+  .profile-content {
+    width: 50%;
+
+    .info-group {
+      width: 100%;
+      border-bottom: 1px solid var(--primary-border-color);
+      padding: 12px 0;
+      margin-bottom: 24px;
+      .info-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .info-title {
+          font-size: 1.8rem;
+          font-weight: 600;
+        }
+
+        .info-edit {
+          font-size: 1.6rem;
+          font-weight: 500;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .info-input {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 1.6rem;
+        border: 1px solid var(--primary-border-color);
+        border-radius: 4px;
+      }
+      .info-description {
+        width: 100%;
+        font-size: 1.6rem;
+        color: var(--secondary-text-color);
+      }
+    }
+  }
+}

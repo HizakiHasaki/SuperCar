@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/bootstrap";
+
+.contact {
+  margin-top: 44px;
+  padding: 0 85px;
+  .title {
+    font-size: 3.2rem;
+    color: var(--primary-text-color);
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 28px;
+  }
+
+  .contact-form {
+    width: 50%;
+
+    .form-group {
+      width: 100%;
+      margin-bottom: 24px;
+      .form-label {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+      .form-input {
+        width: 100%;
+        padding: 12px 16px;
+        border: 1px solid var(--primary-border-color);
+        border-radius: 4px;
+        font-size: 1.6rem;
+        color: var(--secondary-text-color);
+      }
+    }
+
+    .submit-button {
+      width: 100%;
+      padding: 12px 0;
+      border: none;
+      border-radius: 4px;
+      background-color: var(--primary-text-color);
+      color: var(--white);
+      font-size: 1.6rem;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--white);
+        color: var(--primary-text-color);
+        border: 1px solid var(--primary-text-color);
+      }
+    }
+  }
+}
